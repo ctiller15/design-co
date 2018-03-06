@@ -63,6 +63,7 @@ img.search{
   text-align: center;
   max-width: 300px;
   margin: 100px auto 0;
+  color: #4A4A4A;
 }
 
 /* The image section styles */
@@ -88,6 +89,7 @@ img.search{
 
 footer {
   margin: 0 20px;
+  color: #4A4A4A;
 }
 
 .details-info {
@@ -99,6 +101,10 @@ footer {
 .details-info > * {
   flex-basis: 400px;
   flex-shrink: 1;
+}
+
+.announcement h2 {
+  color: red;
 }
 
 .detail {
