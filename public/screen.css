@@ -8,20 +8,64 @@ body {
   font: 16px / 1 sans-serif;
 }
 
+/* The navigation styles */
+
+nav {
+  background: #F7F7F7;
+  padding: 0 20%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.navigation {
+  border-top: 3px solid red;
+}
+
 .navigation, .navigation ul{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   list-style: none;
+  color: black;
 }
+
+.logo {
+  width: 10em;
+}
+
 
 .navigation ul {
   flex-basis: 500px;
 }
 
-.navigation ul li a:hover{
-  color: red;
+.navigation ul li a{
   text-decoration: none;
 }
+
+.navigation ul li a:hover{
+  color: red;
+}
+
+div.search-bar{
+  display: flex;
+  align-items: center;
+}
+
+img.search{
+  width: 2em;
+}
+
+/* Header styles */
+
+#header {
+  text-align: center;
+  max-width: 300px;
+  margin: 100px auto 0;
+}
+
+/* The image section styles */
 
 .image-section .images {
   display: flex;
@@ -38,6 +82,8 @@ body {
 .images img:hover {
   opacity: .5;
 }
+
+/* The footer styles */
 
 footer {
   margin: 0 20px;
