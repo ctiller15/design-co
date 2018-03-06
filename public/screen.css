@@ -17,3 +17,25 @@ body {
 .navigation ul {
   flex-basis: 500px;
 }
+
+.details-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details-info > * {
+  flex-basis: 400px;
+}
+
+.detail {
+  flex-basis: 75%;
+}
+
+.detail .layouts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail .layouts p {
+  flex-basis: 30%;
+}
