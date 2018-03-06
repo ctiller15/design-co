@@ -18,6 +18,31 @@ body {
   flex-basis: 500px;
 }
 
+.navigation ul li a:hover{
+  color: red;
+  text-decoration: none;
+}
+
+.image-section .images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.images img {
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.images img:hover {
+  opacity: .5;
+}
+
+footer {
+  margin: 0 20px;
+}
+
 .details-info {
   display: flex;
   justify-content: space-between;
