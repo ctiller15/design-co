@@ -7,3 +7,13 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+.navigation, .navigation ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navigation ul {
+  flex-basis: 500px;
+}
