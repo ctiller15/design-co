@@ -148,7 +148,7 @@ footer {
   }
 
   .images img {
-    height: 400px;
+    height: 250px;
     width: auto;
   }
 
@@ -178,5 +178,11 @@ footer {
 
   .detail .layouts p {
     flex-basis: 30%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .images img {
+    height: 400px;
   }
 }
